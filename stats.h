@@ -9,19 +9,33 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.h> 
+ * @brief <Statistics calculator for a set of numbers>
  *
- * <Add Extended Description Here>
+ * <This project aims to conduct some statistical operations like mean, median, min, and max.>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Mostafa Ayyad>
+ * @date <22 jan - 2022>
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
+
+void print_array(unsigned char x[], int s);
+
+void print_statistics();
+
+float find_median(unsigned char x[], int s);
+
+float find_mean(unsigned char x[], int s);
+
+int find_maximum(unsigned char x[], int s);
+
+int find_minimum(unsigned char x[], int s);
+
+void sort_array(unsigned char x[], int s);
 
 /**
  * @brief <Add Brief Description of Function Here>
